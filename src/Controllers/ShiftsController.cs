@@ -17,8 +17,6 @@ public class ShiftsController : ControllerBase
         if (shift == null || worker == null)
             return NotFound();
 
-        // Blocked check will be added in the PR feature branch
-
         shift.WorkerId = worker.Id;
         await _dbContext.SaveChangesAsync();
 

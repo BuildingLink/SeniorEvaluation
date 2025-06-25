@@ -17,5 +17,3 @@ Acceptance Criteria
 ✅ A facility can block a worker from being assigned to future shifts.
 
 ✅ Blocked workers must not be assignable to future shifts at the blocking facility.
-
-✅ Ratings are stored with shift-level granularity and immutable.
